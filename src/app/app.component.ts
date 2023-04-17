@@ -6,5 +6,18 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'binding';
+  name:string="jobi";
+  age:number=20;
+  color = 'blue';
+  getCity(){
+    return 'chennai';
+  };
+  firstName = "maha";
+  disableValue : boolean = false; 
+
+  // \\\\\\\\
+  fileStatus = "typing"
+  submit(){
+  this.fileStatus = "submitted"
+  }
 }
